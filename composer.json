@@ -4,6 +4,7 @@
   "homepage": "https://github.com/zhaojunlike/think-swagger",
   "license": "MIT",
   "minimum-stability": "stable",
+  "version": "2.0.2",
   "authors": [
     {
       "name": "westhack",

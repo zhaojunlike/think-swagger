@@ -1,0 +1,34 @@
+{
+  "name": "zhaojunlike/think-swagger",
+  "description": "swagger for thinkphp5",
+  "homepage": "https://github.com/zhaojunlike/think-swagger",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "westhack",
+      "email": "452855489@qq.com"
+    },
+    {
+      "name": "zhaojunlike",
+      "email": "1716771371@qq.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/zhaojunlike/think-swagger/issues"
+  },
+  "require": {
+    "php": ">=7.*",
+    "zircote/swagger-php": "^2.0",
+    "topthink/framework": "^5.1.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "westhack\\swagger\\": "src/"
+    },
+    "files": [
+      "src/route.php"
+    ]
+  }
+}
